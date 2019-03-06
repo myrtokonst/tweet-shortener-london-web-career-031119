@@ -20,7 +20,7 @@ def word_substituter(tweet)
    i = value
  end
  new_array.push(i)
- i+=1 
+ i= i+1 
  end
  end
  new_array.join("")
