@@ -46,4 +46,7 @@ end
 def shortened_tweet_truncator(tweet)
   sub_tweet= selective_tweet_shortener(tweet)
   if sub_tweet.length > 140
-    string[140..]
+   return string[1..135] + "..."
+ else return sub_tweet
+ end
+ end
