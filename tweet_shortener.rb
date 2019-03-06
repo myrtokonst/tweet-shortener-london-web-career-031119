@@ -19,8 +19,8 @@ def word_substituter(tweet)
  if i == key
    i = value
  end
- new_array.push(i)
  end
+ new_array.push(i)
  end
  new_array.join("")
 end
