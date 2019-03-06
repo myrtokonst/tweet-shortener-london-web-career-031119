@@ -18,8 +18,9 @@ def word_substituter(tweet)
  new_array=[]
  array = tweet.split(" ")
  for i in array do 
+   all_i = i.downcase
  dictionary.each do |key,value|
- if i == key
+ if all_i == key
    i = value
  end
  end
